@@ -164,7 +164,7 @@ section {
     padding: 24px 20% 48px;
     display: grid;
     gap: 24px;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(174px, 1fr));
 
 }
 
@@ -470,6 +470,7 @@ footer div p {
     footer {
         padding: 42px 10%;
     }
+
 
 
 }

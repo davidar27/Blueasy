@@ -61,6 +61,7 @@ ul {
     width: 100%;
     align-items: center;
     grid-template: 1fr / repeat(5, 1fr);
+    cursor: pointer;
 }
 
 li {
@@ -75,6 +76,11 @@ main {
 
 section {
     width: 100%;
+}
+
+button {
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .section1 {
@@ -209,12 +215,11 @@ section {
 }
 
 .twitter>.container>.img {
-    width: 100%;
     justify-items: end;
     display: grid;
 }
 
-.twitter .img>img {
+.twitter>.container>.img>img {
     width: 52px;
 }
 
@@ -302,7 +307,12 @@ section {
     border-bottom: 2px solid var(--background-light);
 }
 
-#containerTest>img {
+#containerTest>.img {
+    justify-items: end;
+    display: grid;
+}
+
+#containerTest>.img>img {
     width: 30px;
 }
 
@@ -356,8 +366,6 @@ form>button {
     color: white;
     border: none;
     padding: 15px;
-    cursor: pointer;
-    text-transform: uppercase;
     font-weight: bold;
     width: 60%;
 }
